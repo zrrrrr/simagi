@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Simagi
+                    Simagilagii
                 </div>
 
                 <div class="links">
