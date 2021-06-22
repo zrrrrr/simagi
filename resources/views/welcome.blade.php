@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Simagi v.1
+                    Simagi v.1.0
                 </div>
 
                 <div class="links">
