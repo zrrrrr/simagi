@@ -4,8 +4,10 @@ This is a starter template page. Use this page to start your new project from
 scratch. This page gets rid of all links and provides the needed markup only.
 -->
 <html lang="en">
+  
 <head>
   @include('admin.header')
+  @yield('additionalcss')
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
@@ -24,12 +26,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Starter Page</h1>
+            <h1 class="m-0">Halo! {{ Auth::user()->name }}</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Starter Page</li>
+              <li class="breadcrumb-item active">@yield('location')</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->

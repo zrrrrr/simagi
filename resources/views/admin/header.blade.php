@@ -24,3 +24,4 @@
   <link rel="stylesheet" href="{{ asset('lte/plugins/summernote/summernote-bs4.min.css') }}">
   <!-- Favicon -->
   <link rel="shortcut icon" href="{{ asset('icons/simagi.png') }}">
+  

@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Simagi v.1.0.0
+                    Sistem Manajemen Gardu Induk
                 </div>
 
                 <div class="links">

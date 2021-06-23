@@ -20,3 +20,4 @@ Route::get('admin', 'AdminController@index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::post('dataPeralatanGI', 'AdminController@store');
