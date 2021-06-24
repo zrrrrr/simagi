@@ -3,7 +3,7 @@
 @section('additionalcss')
 <style>
 .form-control {
-  width: 300px;
+  width: 100%;
 }
 </style>
 @endsection
@@ -52,7 +52,7 @@ Dashboard
                         </table>
                     </div>
                     @else
-                        <p>Tidak ada data alat.</p>
+                        <p>Tidak ada data.</p>
                     @endif
                 </div>
             </div>
@@ -88,7 +88,7 @@ Dashboard
                         </table>
                     </div>
                     @else
-                        <p>Tidak ada data alat.</p>
+                        <p>Tidak ada data.</p>
                     @endif
                 </div>                
             </div>
@@ -126,7 +126,7 @@ Dashboard
                         </table>
                     </div>
                     @else
-                        <p>Tidak ada data alat.</p>
+                        <p>Tidak ada data.</p>
                     @endif
                 </div>                
             </div>
