@@ -19,5 +19,10 @@ Route::get('admin', 'AdminController@index');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-Route::post('dataPeralatanGI', 'AdminController@store');
+Route::get('/home', 'AdminController@index')->name('home');
+Route::post('dataPeralatanGI', 'AdminController@store_data_peralatan');
+Route::post('dataTagNamaAlat', 'AdminController@store_data_tagnama_alat');
+Route::post('dataNamaGardu', 'AdminController@store_data_nama_gardu');
+Route::post('dataKategoriPeralatan', 'AdminController@store_data_kategori_peralatan');
+Route::post('dataMerkAlat', 'AdminController@store_data_merk_alat');
+Route::post('updateUser', 'AdminController@update');
